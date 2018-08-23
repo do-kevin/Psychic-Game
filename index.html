@@ -4,21 +4,39 @@
 <meta name="description" content="[Psychic game]">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Psychic Game</title>
 </head>
 <body>
+
+    <header id="masthead">
+        <div class="container">
+                <nav>
+                    <a href="https://github.com/do-kevin/Psychic-Game" target="_blank">Docs Repo</a>
+                </nav>
+        </div>
+    </header>
+
   <div>
+    <br>
     <p id="directions-text">
-        You are sat on the table facing the rival gang leader. Behind you, his henchmen has your crew members held at gunpoint. <br>
-        The gang leader was shuffling cards. "I'm going to pick a random card," the gang leader said. "Each one has a letter. <br>
-        Choose unwisely and I'll off one of boys. I'll give you, let's say, nine guesses per turn." 
-        <br>"Now I know you're a mute," he said amused, "that unplugged keyboard will tell me what you picked."
+
+        The bag you wore over your head was roughly pulled out. You were nudged to sit across a rather old man who was busy clawing at his neck and gleefully watching you. Finished scratching, the old man pulled out a keyboard and a stack of cards. He pushed the keyboard to you; keyboard was unplugged.<br><br>
+
+        "Ah, here we are," said the old man, "you've been making my life difficult. Of course, I can't kill you given that my niece is quite fond of you. Nothing is can ever be simple in this business. Fortunately, we've gathered as much as your crew."<br><br>
+        
+        You looked behind you to see your crew members on their knees, guns cocked behind his or her head by the man's henchmen.<br><br>
+
+        "Because you won't let us operate in peace, I'm going to give this ultamatum," the old man continued. "W're going to play a little game. Given that you're a mute, which I don't bloody know how you've keep this little group of troopers together, you'll be pressing on that keyboard, got it?"<br><br>
+        
+        He lays a random card from the deck., tapping his index on it.<br><br>
+
+        "Each card has an alphabet. Tell me, or rather show me which one it is, by typing on that keyboard. You'll have nine guesses. Choose unwisely and we'll off your people one by one. I'll be pulling another random card for every wrong guess." The old man relaxed on his chair.
         
         <br><br>
-        "Press any button to let me know you want to start our little game."
-    </p>
+        "So, let's see how many your boys and girls will last tonight. Press a button. Let me know when you're ready to play. Else, I guess we could just kill everyone of them and call it a night."
+  </p>
     <p id="user-choice-text"></p>
     <p id="computer-choice-text"></p>
     <p id="wins-text"></p>
@@ -26,6 +44,11 @@
     <p id="guesses-left"></p>
     <p id="guesses-so-far"></p>
   </div>
+
+  <audio id="myAudio">
+    <!-- <source src="assets/sounds/gunReady.mp3" type="audio/mpeg"> -->
+    <source src="assets/sounds/gunShot.mp3" type="audio/mpeg">
+  </audio>
 
   <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

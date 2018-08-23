@@ -1,0 +1,15 @@
+p {
+    font-size: 18px;
+    line-height: 2rem;
+    margin: 20px 40px 0 40px;
+    font-family: Helvetica, Verdana, serif;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px 0 0 10px;
+    font-size: 21px;
+    color: whitesmoke;
+    padding: 20px;
+    background-color: black;
+}
