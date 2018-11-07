@@ -53,7 +53,7 @@ document.onkeyup = function (event) {
     }
 
     // push() adds element(s) to end of array & returns new array length
-    guessesSoFar.push(userGuess);
+    guessesSoFar.push(" " + userGuess);
 
     if (guessesLeft === 0) {
         userLosses++;
